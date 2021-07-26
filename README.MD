@@ -2,6 +2,7 @@ This is a TB detecting app made with fastai and the [Montgomery and Shenzhen TB 
 
 The app isn't very accurate and is strictly not for diagnosis or treatment or making medical deicions
 
+[The working app can be found here, served with voila and binder](https://hub.gke2.mybinder.org/user/aflip-tbornottb-piipw70u/voila/render/TB_or_not_TB.ipynb?token=JdX_LwudQFaa6GOuNneIuw)
 
 
 Ref:
