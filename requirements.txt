@@ -1,2 +1,5 @@
-fastbook
+fastai
+fastcore
 voila
+ipywidgets
+Pillow==8.2.0
