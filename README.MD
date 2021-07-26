@@ -1,5 +1,7 @@
 This is a TB detecting app made with fastai and the [Montgomery and Shenzhen TB datasets](https://lhncbc.nlm.nih.gov/LHC-publications/pubs/TuberculosisChestXrayImageDataSets.html)
 
+The app isn't very accurate and is strictly not for diagnosis or treatment or making medical deicions
+
 
 
 Ref:
