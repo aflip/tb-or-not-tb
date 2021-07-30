@@ -1,16 +1,16 @@
-This is a Deep learning powedred app that detects TB from chest X rays.
+This is a Deep learning powered app that detects TB from chest X rays.
 
 
 Made with [Fast.ai](https://github.com/fastai/fastai) and trained on the the [Montgomery and Shenzhen TB datasets](https://lhncbc.nlm.nih.gov/LHC-publications/pubs/TuberculosisChestXrayImageDataSets.html) and tested on the [Jaypee institute TB Dataset](https://sourceforge.net/projects/tbxpredict/) [5]
 
-The app is strictly not for diagnosis or treatment or making medical deicions as it has not undergone any clinical testing yet.
+The app is strictly not for diagnosis or treatment or making medical decisions as it has not undergone any clinical testing yet.
 
 [The working app can be found here, served with voila and binder](https://hub.gke2.mybinder.org/user/aflip-tbornottb-piipw70u/voila/render/TB_or_not_TB.ipynb?token=JdX_LwudQFaa6GOuNneIuw) (This is down, for now)
 
 
 ## How reliable is the Chest X-ray (CXR)
 
-In practice, the CXR is used widely to make a confirmation of TB. It is also considered to be very sensitive for TB. Probably more sensitive than just a sputum test. However, the inter-operator variablity in CXR reading is a big problem in TB. [3] Screenshots are from Toman TB  [4]
+In practice, the CXR is used widely to make a confirmation of TB. It is also considered to be very sensitive for TB. Probably more sensitive than just a sputum test. However, the inter-operator variability in CXR reading is a big problem in TB. [3] Screenshots are from Toman TB  [4]
 
 ![Observer error](/img/observer_error.png)
 ![Inter operator agreement](/img/inter_operator_agreement.png)
@@ -21,9 +21,9 @@ in summary, the chapter on CXR reliability says:
 ![X-rays summary](/img/in_summary.png)
 
 
-Multiple studies have shown that DL models provide consistant and reliable TB diagnosis from CXRs [6][7]
+Multiple studies have shown that DL models provide consistent and reliable TB diagnosis from CXRs [6][7]
 
-I think removing the inter-operator bias, and Dl models that provide more than just lables with confidence, but also include localization, heaptmaps or boundary boxes will go a long way in improving the diagnosis making process of TB.
+I think removing the inter-operator bias, and Dl models that provide more than just labels with confidence, but also include localization, heat-maps or boundary boxes will go a long way in improving the diagnosis making process of TB.
 
 
 
