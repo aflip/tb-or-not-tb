@@ -1,3 +1,8 @@
+[[toc]]
+
+
+## Introduction
+
 This is a Deep learning powered app that detects TB from chest X rays.
 
 
@@ -25,6 +30,10 @@ Multiple studies have shown that DL models provide consistent and reliable TB di
 
 I think removing the inter-operator bias, and Dl models that provide more than just labels with confidence, but also include localization, heat-maps or boundary boxes will go a long way in improving the diagnosis making process of TB.
 
+
+## Bias and reliability of machine learning models
+
+This needs to be said as often as a ML model is spoken of: Unless we investigate and determine WHY and HOW (Hypothesis based testing) a ML model makes the decisions it makes, we'll always get things wrong. Here is a good example of an investigation into this: [What are radiological deep learning models actually learning?](https://jrzech.medium.com/what-are-radiological-deep-learning-models-actually-learning-f97a546c5b98) By john Zech
 
 
 ## Roadmap:
