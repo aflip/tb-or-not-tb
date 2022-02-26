@@ -1,6 +1,3 @@
-[[toc]]
-
-
 ## Introduction
 
 This is a Deep learning powered app that detects TB from chest X rays.
@@ -44,7 +41,7 @@ This needs to be said as often as a ML model is spoken of: Unless we investigate
 
 
 
-### References:
+## References:
 
 
 [1] @misc{howard2018fastai,
